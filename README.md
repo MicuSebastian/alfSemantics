@@ -1,4 +1,4 @@
-# alfSemantics
+# About
 The purpose of the assignment is to create the symbol table and write the semantic analysis for the Alf language. You will receive an AST from the parser that correctly parses an Alf language source and must write: 
 * the symbol table, 
 * a new AST with the following modifications, 
