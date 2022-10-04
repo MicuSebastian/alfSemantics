@@ -1,0 +1,52 @@
+{
+    "symbol_table": {
+        "script": {
+            "type": "script",
+            "variables": {},
+            "functions": {},
+            "types": {}
+        }
+    },
+    "ast": {
+        "script": {
+            "statements": [
+                {
+                    "id": "expr",
+                    "op": "+",
+                    "left": {
+                        "id": "value",
+                        "type": "string",
+                        "value": "text ",
+                        "line": 3,
+                        "symbol_table": "script"
+                    },
+                    "right": {
+                        "id": "expr",
+                        "op": "*",
+                        "left": {
+                            "id": "value",
+                            "type": "int",
+                            "value": 10,
+                            "line": 3,
+                            "symbol_table": "script"
+                        },
+                        "right": {
+                            "id": "value",
+                            "type": "int",
+                            "value": 30,
+                            "line": 3,
+                            "symbol_table": "script"
+                        },
+                        "line": 3,
+                        "symbol_table": "script",
+                        "type": "int"
+                    },
+                    "line": 3,
+                    "symbol_table": "script",
+                    "type": "string"
+                }
+            ]
+        }
+    },
+    "errors": []
+}

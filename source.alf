@@ -1,0 +1,34 @@
+{
+   "id": "script",
+   "statements": [
+      {
+         "id": "expr",
+         "op": "+",
+         "left": {
+            "id": "value",
+            "type": "string",
+            "value": "text ",
+            "line": 3
+         },
+         "right": {
+            "id": "expr",
+            "op": "*",
+            "left": {
+               "id": "value",
+               "type": "int",
+               "value": 10,
+               "line": 3
+            },
+            "right": {
+               "id": "value",
+               "type": "int",
+               "value": 30,
+               "line": 3
+            },
+            "line": 3
+         },
+         "line": 3
+      }
+   ],
+   "line": 3
+}
